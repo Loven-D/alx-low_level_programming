@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E "$CFILE" -o c
+echo "Preprocessor has run on $CFILE and saved the output in c file" / gcc -E "$CFILE" -o c
