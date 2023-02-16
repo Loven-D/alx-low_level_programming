@@ -1,6 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/* This function is for puts */
+/* 
+ * main is the beginning of the block of code 
+ * return zero is succeful if code works*/
 
 int main(void)
 {
