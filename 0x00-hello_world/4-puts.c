@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/* 
+/** 
  * main is the beginning of the block of code 
- * return zero is succeful if code works*/
+ * return zero is succeful if code works
+ */
 
 int main(void)
 {
