@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * main is start point
  * return; always return 0
  * printing out the size
  */
