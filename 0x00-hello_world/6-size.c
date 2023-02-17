@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main is start point
- * return; always return 0
- * printing out the size
+ * main - start point
+ * return; always return 0(succeful)
  */
 int main(void)
 {
