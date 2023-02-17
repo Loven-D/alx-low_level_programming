@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/*main is Entry point*/
+/*function main is Entry point*/
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -17,8 +17,9 @@ else if (n < 0)
 {
 	printf("%d is negative\n", n);
 }
-else {
-	printf("Zero!\n");
+else
+{
+	printf("0 is zero!\n");
 }
 
 	return (0);
