@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * return; always return 0
  * printing out the size
  */
 int main(void)
