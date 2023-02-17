@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* main - Entry point */
-/* betty style doc for function main goes there */
+/*
+* main - Entry point
+* betty style doc for function main goes there
+*/
 int main(void)
 {
 	int n;
