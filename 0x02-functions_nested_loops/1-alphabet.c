@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
  * main - Program that prints alphabet in lowercase
+ * print_alphabet - print the alphabet in lower case
  * followed by a new line
  * Return: 0 (Success)
 */
@@ -17,5 +19,5 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-	
+
 }
