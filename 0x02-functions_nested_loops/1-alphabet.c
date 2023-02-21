@@ -7,14 +7,18 @@
  * followed by a new line
  * Return: 0 (Success)
  */
-int main (void)
-{
-	char A;
-	for (A = 'a'; A <= "z"; A++)
-	{
-		_putchar(A);
-		_putchar("\n");
-	}
 
-	return (0);
+int _putchar(char c);
+
+void print_alphabet(void)
+{
+    char c = 'a';
+
+    while (c <= 'z') {
+        _putchar(c);
+        c++;
+    }
+    
+    _putchar('\n');
 }
+
