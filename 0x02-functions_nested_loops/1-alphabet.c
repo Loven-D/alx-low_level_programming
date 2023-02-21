@@ -17,5 +17,4 @@ void print_alphabet(void)
 		c++;
 	}
 	
-	printf('\n');
 }
