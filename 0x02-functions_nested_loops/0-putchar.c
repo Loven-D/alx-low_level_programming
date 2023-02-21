@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - start the code
  * return: always 0.
  */
 
-int main()
+int main(void)
 {
 	printf("_putchar\n");
 
