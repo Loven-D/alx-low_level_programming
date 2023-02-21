@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * main - Program that prints alphabet in lowercase
  * followed by a new line
  * Return: 0 (Success)
 */
 
-int _putchar(char c);
 void print_alphabet(void)
 {
 	char c = 'a';
@@ -16,5 +15,7 @@ void print_alphabet(void)
 		_putchar(c);
 		c++;
 	}
+
+	_putchar('\n');
 	
 }
