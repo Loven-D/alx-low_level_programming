@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -entry point
+ * main -program that prints
+ * -putchar,
+ *  followed by a new line.
  * return: always 0.
  */
 
