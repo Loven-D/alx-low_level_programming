@@ -8,14 +8,15 @@
  */
 void print_to_98(int c)
 {
-	int i,j;
+	int i, j;
+
 	if (c <= 98)
 	{
 		i = c;
-		while(i <= 98)
+		while (i <= 98)
 		{
 			if (i != 98)
-				printf("%d. ", i);
+				printf("%d, ", i);
 			else if (i == 98)
 				printf("%d\n", i);
 			i++;
