@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * print_triangle - Prints a triangle made of '#' characters to stdout.
+ * @size: The size of the triangle to print.
+ */
 
 void print_triangle(int size)
 {
