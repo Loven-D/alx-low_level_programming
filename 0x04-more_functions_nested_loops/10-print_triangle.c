@@ -9,7 +9,7 @@ void print_triangle(int size)
 	int row, col;
 	if (size <= 0) 
 	{
-		_putchar('\n'
+		_putchar('\n');
 	}
 
 	for (row = 1; row <= size; row++) 
