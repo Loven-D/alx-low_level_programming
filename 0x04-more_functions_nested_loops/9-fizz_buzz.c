@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * main - entry point for the code
+ * fizz for the multiple of 3.
+ * Buzz for the multiple of 5.
+ * FizzBuzz for the multiple of both 3 and 5.
+ */
 
 int main(void)
 {
@@ -26,4 +32,3 @@ int main(void)
 	printf("\n");
 	return 0;
 }
-
