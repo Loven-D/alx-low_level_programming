@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * void reset_to_98(int *n) is the function that resets to 98.
- * return; 0 succefully.
+ * reset_to_98 is the function that update to 98.
+ * @n: variable to be modified
  */
 void reset_to_98(int *n)
 {
