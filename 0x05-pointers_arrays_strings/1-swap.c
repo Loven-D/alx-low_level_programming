@@ -3,10 +3,10 @@
 
 /**
  *swap_int - swap the value of two integers
- * @i - first integer
- * @c - second integer
- * @a - first integer to be swapped
- * @b - second integer to be swapped
+ * @a - first integer
+ * @b - second integer
+ * @i - first integer to be swapped
+ * @c - second integer to be swapped
  */
 void swap_int(int *a, int *b)
 {
