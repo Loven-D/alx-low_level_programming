@@ -20,7 +20,7 @@ else
 start_index = (length - 1) / 2;
 }
 
-for (i = start_index; i < length; i++)
+for (i = start_index; i <= length; i++)
 {
 printf("%c", str[i]);
 }
