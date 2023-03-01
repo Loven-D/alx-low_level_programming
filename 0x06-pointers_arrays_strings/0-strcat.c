@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * strcat - it takes two argument
+ * _strcat - it takes two argument
  * @dest: destination string
- * @s: sting to be appended to dest
+ * @src: string to be appended to dest
  */
 char *_strcat(char *dest, char *src)
 {
