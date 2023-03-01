@@ -8,7 +8,7 @@
  * Return: integer.
  */
 
-int _atoi (char *s)
+int _atoi(char *s)
 {
 	int sign = 1, i = 0;
 	unsigned int res = 0;
@@ -25,5 +25,5 @@ int _atoi (char *s)
 		i++;
 	}
 	res *= sign;
-	return(res);
+	return (res);
 }
