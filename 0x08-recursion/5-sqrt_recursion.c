@@ -7,22 +7,27 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n, 1));
-}
-
-/**
- * _sqrt - _sqrt_recursion
- * @n: integer paramtr
- * @i: integer parameter
- * Return: sqrt
- */
-int _sqrt(int n, int i)
-{
 	if (n < 0)
+	{
 		return (-1);
-	if ((i * i) > n)
+	}
+	if (n == 0 || n == 1)
+	{
+		return (n);
+	}
+
+	int i = _sqrt_recursion(n / 4) * 2;
+
+	if (i * i > n)
+	{
 		return (-1);
-	if (i * i == n)
+	}
+	if ((i + 1) * (i + 1) <= n)
+	{
+		return (_sqrt_recursion(n));
+	}
+	else
+	{
 		return (i);
-	return (_sqrt(n, i + 1));
+	}
 }
