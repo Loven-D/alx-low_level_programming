@@ -3,8 +3,8 @@
 
 /**
  * main - entry point
- * @argv: integer that represents the number of arguments
- * @agrc: an array of strings 
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  * Return: 0 always
  */
 int main(int argc, char *argv[])
