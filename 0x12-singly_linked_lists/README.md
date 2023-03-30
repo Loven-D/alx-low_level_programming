@@ -18,6 +18,6 @@ Don’t forget to push your header file
 All your header files should be include guarded
 
 About
-This task is based on tutoring how to link and node 
+This task is based on tutoring how to link and node
 
-Author: Oziegbe Daniel 
+Author: Oziegbe Daniel
