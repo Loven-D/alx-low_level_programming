@@ -3,7 +3,8 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - Inserts a new node at a given position in a listint_t linked list
+ * insert_nodeint_at_index - Inserts a
+ * 	new node at a given position in a listint_t linked list
  * @head: Pointer to a pointer to the head of the list
  * @idx: Index at which the new node should be added, starting at 0
  * @n: Value of the new node to be added
@@ -28,7 +29,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		new_node->next = current;
 		*head = new_node;
-		return new_node;
+		return (new_node);
 	}
 
 	/* Traverse the list to the node before the desired index */

@@ -4,7 +4,8 @@
 #include "lists.h"
 
 /**
- * delete_nodeint_at_index - Deletes the node at the given index of a listint_t linked list
+ * delete_nodeint_at_index - Deletes the node
+ * 	at the given index of a listint_t linked list
  * @head: Pointer to a pointer to the head of the list
  * @index: Index of the node to be deleted, starting at 0
  *
@@ -36,8 +37,10 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	if (current == NULL || current->next == NULL)
 		return (-1);
 
-	temp = current->next; /* Store the node to be deleted in a temporary variable */
-	current->next = current->next->next; /* Update the next pointer of the current node */
+	/* Store the node to be deleted in a temporary variable */
+	temp = current->next;
+	/* Update the next pointer of the current node */
+	current->next = current->next->next;
 
 	free(temp); /* Free the memory of the deleted node */
 	return (1);
