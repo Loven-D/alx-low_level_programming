@@ -5,7 +5,7 @@
 
 /**
  * delete_nodeint_at_index - Deletes the node
- * 	at the given index of a listint_t linked list
+ *	at the given index of a listint_t linked list
  * @head: Pointer to a pointer to the head of the list
  * @index: Index of the node to be deleted, starting at 0
  *
