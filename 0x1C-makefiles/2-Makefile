@@ -4,7 +4,7 @@
 CC = gcc
 
 # Source files
-SRC = main.c file1.c file2.c
+SRC = main.c school.c
 
 # Object files generated from source files
 OBJ = $(SRC:.c=.o)
@@ -26,7 +26,3 @@ $(NAME): $(OBJ)
 # Clean up object files and the executable
 clean:
 	rm -f $(OBJ) $(NAME)
-
-# Declare the 'clean' rule as a phony target
-.PHONY: clean
-
