@@ -1,1 +1,1 @@
-n*m -> O(nm)
+n square -> O(n^2)
